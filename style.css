@@ -1,0 +1,78 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Space+Mono&display=swap');
+
+
+*{
+    font-family: 'Space Mono', monospace;
+}
+
+.logo{
+    font-family: 'Inconsolata', monospace;
+}
+
+.content{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+    
+}
+
+.note{
+    word-wrap: break-word;
+    line-height: 30px;
+}
+
+img{
+    width: 539px;
+    height: 447.4263916015625px;
+}
+
+button{
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #333333;
+    color: #fff;
+    margin-top: 30px;
+    width: 216px;
+    height: 68px;
+}
+
+.description{
+   margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    *{
+        padding: 5px;
+        margin: 10px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        justify-content: center;
+        position: relative;
+        top: 150px;
+        text-align: justify;
+        
+    }
+
+    .note,h3{
+        word-wrap: break-word;
+        line-height: 30px;
+        width: 350px;
+        overflow-wrap: break-word;
+
+    }
+
+    img{
+        width: 400px;
+        height: 347.4263916015625px;
+    }
+
+  }
